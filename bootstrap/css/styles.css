@@ -1,0 +1,31 @@
+html { position: relative; min-height: 100%;}
+body {
+padding-top: 70px;
+padding-bottom: 30px;
+background-color: #eee;
+}
+
+.footer { 
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	/*Set the fixed height of the footer here*/
+	line-height: 50px;
+	/*Vertically center the text there*/
+	background-color: #f1f1f1;
+}
+
+/*remove adds*/
+img[alt*="000webhost"],
+img[alt*="000webhost"][style],
+img[src*="000webhost"],
+img[src*="000webhost"][style],
+body > div:nth-last-of-type(1)[style]{
+	opacity: 0 !important;
+	pointer-events:none !important;
+	width: 0px !important;
+	height: 0px !important;
+	visibility:hidden !important;
+	display:none !important;
+}
